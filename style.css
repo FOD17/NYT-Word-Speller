@@ -1,0 +1,103 @@
+:root {
+  --gray-color: gray;
+}
+
+#container {
+  position: relative;
+  max-width: 1000px;
+  left: -200px;
+}
+
+#one {
+  fill: var(--gray-color);
+  grid-area: one;
+  position: absolute;
+  left: 500px;
+}
+
+#one-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+#two {
+  fill: var(--gray-color);
+  position: absolute;
+  left: 250px;
+  top: 160px;
+}
+
+#two-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+#three {
+  fill: var(--gray-color);
+  position: absolute;
+  left: 750px;
+  top: 160px;
+}
+
+#three-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+#four {
+  fill: gold;
+  position: absolute;
+  left: 500px;
+  top: 300px;
+}
+
+#four-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+#five {
+  fill: var(--gray-color);
+  position: absolute;
+  left: 250px;
+  top: 440px;
+}
+
+#five-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+#six {
+  fill: var(--gray-color);
+  position: absolute;
+  left: 745px;
+  top: 440px;
+}
+
+#six-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+#seven {
+  fill: var(--gray-color);
+  position: absolute;
+  left: 500px;
+  top: 590px;
+}
+
+#seven-letter {
+  fill: black;
+  font-size: 90px;
+}
+
+.play-wrapper {
+  position: relative;
+  left: 1000px;
+}
+
+#submit {
+  margin-top: 30px;
+  display: block;
+}
